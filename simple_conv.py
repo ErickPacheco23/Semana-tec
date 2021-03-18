@@ -43,7 +43,6 @@ def convolution(image, kernel):
  
     return output
 
-imagen = cv2.imread('imagen.jpg')
+imagen = cv2.imread('imagen.jpg', 0)
 cv2.imshow('image', imagen)
-#kernel = np.ones((3,3))
-#resultado = convolution(gray, kernel)
+cv2.waitKey(0)
